@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DRV8300DPWR") (type "KiCad") (uri "${KICAD_3RD_PARTY}/DRV8300/DRV8300DPWR.kicad_sym") (options "") (descr ""))
+)

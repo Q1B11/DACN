@@ -654,7 +654,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "GATE DRIVER",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -666,7 +666,7 @@
         "uuid": "b8ec62ed-17ff-4ad4-85fd-107b5dc9a382"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R5,R9-13,U1,Q1-4,Q6,C13,C16-18,C29,IC1,#PWR21-32",
     "variants": []
   },
   "sheets": [
@@ -681,6 +681,14 @@
     [
       "7a94ef4b-39b2-4411-941d-cada79ed626c",
       "MCU"
+    ],
+    [
+      "5183fc3e-7904-4058-b890-b94855bc37ca",
+      "Gate Driver"
+    ],
+    [
+      "7b9767d3-353e-4c6e-b2a8-08e62585f466",
+      "MOSFET"
     ]
   ],
   "text_variables": {},
