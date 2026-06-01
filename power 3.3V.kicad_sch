@@ -1121,6 +1121,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 115.57 78.74)
@@ -1139,12 +1254,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09605a5c-8cef-4b03-8c6c-3b2801c687c3")
-	)
-	(junction
-		(at 139.7 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c61371a-84a2-4948-b334-ac7d9273929c")
 	)
 	(junction
 		(at 182.88 54.61)
@@ -1195,12 +1304,6 @@
 		(uuid "5c12e2cb-6363-41f0-9e6b-3a5fc603c899")
 	)
 	(junction
-		(at 217.17 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61e471fe-10ee-4447-8f8c-6a642f62406f")
-	)
-	(junction
 		(at 139.7 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1223,12 +1326,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a914297-98b3-4b24-a973-cd878f664958")
-	)
-	(junction
-		(at 217.17 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d171fc3-e0e5-4b5f-a3cb-df4f22479929")
 	)
 	(junction
 		(at 182.88 110.49)
@@ -1295,12 +1392,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc1c2d63-3dca-479f-86e6-4581ee9d358b")
-	)
-	(junction
-		(at 139.7 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "deaf2017-4a2d-45e5-a920-d919861c6f98")
 	)
 	(junction
 		(at 151.13 102.87)
@@ -1372,16 +1463,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 139.7 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f336a6b-09ee-4782-bb00-790f6035fe8f")
-	)
-	(wire
-		(pts
 			(xy 85.09 83.82) (xy 95.25 83.82)
 		)
 		(stroke
@@ -1392,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 217.17 110.49)
+			(xy 217.17 104.14) (xy 217.17 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1442,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 139.7 99.06)
+			(xy 139.7 96.52) (xy 139.7 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1542,16 +1623,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 50.8) (xy 218.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497f5fae-a3ff-4c9b-b069-01240285c49e")
-	)
-	(wire
-		(pts
 			(xy 115.57 78.74) (xy 125.73 78.74)
 		)
 		(stroke
@@ -1579,6 +1650,16 @@
 			(type default)
 		)
 		(uuid "4fb15118-4657-4d36-af16-92a9c18ceece")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57596d18-b391-489d-9d66-6c0c48c5d073")
 	)
 	(wire
 		(pts
@@ -1702,16 +1783,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 43.18) (xy 139.7 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e738fd-6e8c-4125-91c7-e0ed72f8d0ac")
-	)
-	(wire
-		(pts
 			(xy 139.7 107.95) (xy 151.13 107.95)
 		)
 		(stroke
@@ -1772,16 +1843,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 217.17 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a37646-c39f-44de-8fd9-e096732019ca")
-	)
-	(wire
-		(pts
 			(xy 200.66 110.49) (xy 205.74 110.49)
 		)
 		(stroke
@@ -1812,23 +1873,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 50.8) (xy 217.17 54.61)
+			(xy 217.17 48.26) (xy 217.17 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b229905e-b7f8-4ace-a01d-8cdb08aa9574")
-	)
-	(wire
-		(pts
-			(xy 217.17 48.26) (xy 217.17 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b381dd93-364f-477a-b3dd-348c2865d60d")
 	)
 	(wire
 		(pts
@@ -1892,16 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 40.64) (xy 139.7 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae34abb-0e93-40b3-ab21-3c6f95d56705")
-	)
-	(wire
-		(pts
 			(xy 64.77 76.2) (xy 64.77 78.74)
 		)
 		(stroke
@@ -1932,16 +1973,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 99.06) (xy 139.7 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e45e203e-0871-43c7-951e-f4883451cc41")
-	)
-	(wire
-		(pts
 			(xy 64.77 78.74) (xy 74.93 78.74)
 		)
 		(stroke
@@ -1952,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 139.7 46.99)
+			(xy 139.7 40.64) (xy 139.7 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2000,60 +2031,6 @@
 		)
 		(uuid "ff54b874-01b4-4172-98e9-65b5835c6054")
 	)
-	(wire
-		(pts
-			(xy 217.17 106.68) (xy 218.44 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffde72db-f73b-4f3d-bee3-3bc10f33506e")
-	)
-	(hierarchical_label "+BATT"
-		(shape input)
-		(at 140.97 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b10dce12-bf54-4aab-a655-a7453ce44a42")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 218.44 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c286c07b-19a3-4fbb-9708-60e4ca8efbcf")
-	)
-	(hierarchical_label "+12V"
-		(shape input)
-		(at 218.44 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c88c7304-fbb5-4e95-89b7-4b0ccf938bbb")
-	)
-	(hierarchical_label "+BATT"
-		(shape input)
-		(at 140.97 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eda2d48b-f34f-4a04-b6cd-30de69d07a34")
-	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Capacitor_NP")
 		(at 125.73 81.28 90)
@@ -2087,7 +2064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.54 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2168,7 +2145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2487,7 +2464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.75 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2568,7 +2545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 154.94 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2649,7 +2626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2730,7 +2707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2889,7 +2866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 220.98 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2970,7 +2947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +3028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3100,6 +3077,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "730ac0c9-7aa7-4955-8c25-c392e2ba410b")
+		(property "Reference" "#FLG01"
+			(at 115.57 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4228b97-0d13-4549-a139-167b5b88b3ad")
+		)
+		(instances
+			(project "DACN"
+				(path "/b8ec62ed-17ff-4ad4-85fd-107b5dc9a382/0c5660f6-4114-488d-af92-2371f004dba8"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Devices:Capacitor_NP")
 		(at 182.88 50.8 90)
 		(unit 1)
@@ -3132,7 +3187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 186.69 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3291,7 +3346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 220.98 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3688,7 +3743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 186.69 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3769,7 +3824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3850,7 +3905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4091,7 +4146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4270,7 +4325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4350,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Coil:1008_2520Metric"
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 195.58 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4789,7 +4844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 109.22 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4870,7 +4925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.75 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +5161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Coil:1008_2520Metric"
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 198.12 116.84 0)
 			(hide yes)
 			(show_name no)

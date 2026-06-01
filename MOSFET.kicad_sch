@@ -1895,7 +1895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
 			(at 142.24 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -2069,7 +2069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
 			(at 81.28 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -2719,7 +2719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
 			(at 111.76 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -2890,7 +2890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.19 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2972,7 +2972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
 			(at 111.76 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
 			(at 81.28 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -3373,6 +3373,7 @@
 	(symbol
 		(lib_id "PCM_SL_Devices:Capacitor_NP")
 		(at 119.38 115.57 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3380,7 +3381,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac8f7094-a173-47b6-a6d6-6fc7797db361")
 		(property "Reference" "C28"
 			(at 119.38 107.95 0)
@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3564,7 +3564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+		(property "Footprint" "CSD19532Q5B:TRANS_CSD19532Q5B"
 			(at 142.24 102.235 0)
 			(hide yes)
 			(show_name no)
