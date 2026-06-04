@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "CSD19532Q5B") (type "KiCad") (uri "${KIPRJMOD}/Footprint/CSD19532Q5B") (options "") (descr ""))
-)
