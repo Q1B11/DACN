@@ -648,17 +648,13 @@
         "uuid": "7eba1881-9c24-40ba-a5dc-3498714e1034"
       }
     ],
-    "used_designators": "IC2,J4,#PWR48-53",
+    "used_designators": "Q1-6,A1,D1-3,#PWR1-14,#PWR49,#PWR54-55,C1-8,U1-3,J1-2,J5,R1-9,MP1584_Module1",
     "variants": []
   },
   "sheets": [
     [
       "7eba1881-9c24-40ba-a5dc-3498714e1034",
       "DACN"
-    ],
-    [
-      "b2e7622d-1df9-4310-ada9-1266eb83bbaa",
-      "Driver"
     ]
   ],
   "text_variables": {},
